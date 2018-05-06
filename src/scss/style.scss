@@ -1,0 +1,143 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Lobster|Pacifico');
+
+
+body, html {
+  background: #02111D;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #02111D, #037BB5, #02111D);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #02111D, #037BB5, #02111D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: 'Lobster', cursive;
+}
+
+section h4 {
+  color:white;
+  font-family: 'Pacifico', cursive;
+  margin-left:30px;
+  font-size:25px;
+  margin-bottom:20%
+}
+
+header h1 {
+  float:right;
+  margin-right:200px;
+  color:white;
+  font-weight:bold;
+  font-size:80px;
+  margin-top:-280px;
+  font-family: 'Rubik', sans-serif;
+}
+header p {
+  color:white;
+  transform: rotate(270deg);
+	transform-origin: left top 0;
+  margin-left:90px;
+  margin-top:90px;
+  font-family: 'Rubik', sans-serif;
+  font-size:20px;
+}
+
+header ul {
+  list-style-type:none;
+  color:white;
+  overlay:hidden;
+}
+
+header li {
+  margin-left:95%;
+}
+
+header li a {
+  text-decoration:none;
+  color:white;
+  font-family: 'Rubik', sans-serif;
+  transform: rotate(270deg);
+	transform-origin: left top 0;
+  float:left;
+  padding:30px;
+
+}
+
+header .fab {
+  width:60px;
+  font-size:30px;
+}
+
+#main h1 {
+  float:left;
+  margin-left:80px;
+  color:white;
+  font-weight:bold;
+  font-size:70px;
+  margin-top:-280px;
+  font-family: 'Rubik', sans-serif;
+}
+
+#main p {
+  color:white;
+  font-size:20px;
+  opacity:0.70;
+  font-family: 'Abel', sans-serif;
+  margin-left:85px;
+  text-align:justify;
+}
+
+#main h2 {
+  color:white;
+  font-family: 'Rubik', sans-serif;
+  font-size:30px;
+  font-weight:bold;
+  float:right;
+  margin-right:370px;
+  margin-top:-170px;
+}
+
+#main ul {
+  list-style-type:none;
+  overlay:hidden;
+  color:white;
+  padding:auto;
+}
+
+
+#main li {
+  font-family: 'Rubik', sans-serif;
+  text-decoration:none;
+  margin-left:900px;
+  margin-top:-60px;
+}
+
+
+/* body */
+#main2 p {
+  float:right;
+  color:white;
+  margin-right:150px;
+  margin-top:90px;
+  font-family: 'Abel', sans-serif;
+  font-size:20px;
+  opacity:0.70;
+  margin-left:50px;
+}
+
+#main2 img{
+  width:40%;
+  margin-top:90px;
+  margin-left:80px;
+  opacity:0.50;
+  border-raduis:20px;
+}
+#main2 h2 {
+  position: absolute;
+  top: 490%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  color:white;
+  font-family: 'Rubik', sans-serif;
+  font-weight:bold;
+  font-size:70px;
+
+}
+#main2 img:hover{
+  opacity:0.90;
+}
